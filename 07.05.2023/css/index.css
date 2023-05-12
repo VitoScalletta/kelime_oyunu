@@ -1,0 +1,44 @@
+body{
+    background-color: #232323;
+    margin: 0 auto;
+    padding: 0;
+    color: whitesmoke;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+#kelime{
+    width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#kelime .kelimekutusu{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    float: left;
+    margin: 5px;
+}
+.sayidiv{
+    position: relative;
+    left: 750px;
+    top: 50px;
+}
+input{
+    background-color: whitesmoke;
+    width: 100px;
+    height: 20px;
+    border: none;
+}
+
+.tahmin{
+    position: relative;
+    left: 850px;
+    top: 50px;
+    display: none;
+}
